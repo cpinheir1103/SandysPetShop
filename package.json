@@ -1,0 +1,26 @@
+{
+  "name": "cloudcmd-sample",
+  "version": "0.0.1",
+  "description": "sample use of https://github.com/coderaiser/cloudcmd/ library",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "cloudcmd": "*",
+    "socket.io": "*"
+  },
+  "engines": {
+    "node": "6.10.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/cloudcmd-sample"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
